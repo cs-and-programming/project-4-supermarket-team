@@ -15,30 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="counter.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\ConsoleApplication2\ConsoleApplication2\pch.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LearningClasses.cpp">
+    <ClCompile Include="..\..\LearningClasses\LearningClasses\counter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="counter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\ConsoleApplication2\ConsoleApplication2\pch.cpp">
+    <ClCompile Include="..\..\LearningClasses\LearningClasses\LearningClasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="LearningClasses.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
+    <ClInclude Include="..\..\LearningClasses\LearningClasses\counter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
