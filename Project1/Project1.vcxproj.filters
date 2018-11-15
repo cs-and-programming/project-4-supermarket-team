@@ -21,16 +21,10 @@
     <ClCompile Include="..\..\LearningClasses\LearningClasses\LearningClasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="newfile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\LearningClasses\LearningClasses\counter.h">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="newfile.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

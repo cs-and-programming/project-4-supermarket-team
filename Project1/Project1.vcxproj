@@ -117,11 +117,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\LearningClasses\LearningClasses\counter.cpp" />
     <ClCompile Include="..\..\LearningClasses\LearningClasses\LearningClasses.cpp" />
-    <ClCompile Include="newfile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\LearningClasses\LearningClasses\counter.h" />
-    <ClInclude Include="newfile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
