@@ -6,7 +6,7 @@ using namespace std;
 product Eggs = 
 product Milk = 
 product Bread = 
-product Soa = 
+product Soda = 
 product Meat = 
 product Cereal = 
 
