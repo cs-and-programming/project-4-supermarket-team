@@ -7,7 +7,7 @@ class product
 {
 private:
 	int count;
-	float wholesalePrice; 
+	float wholesalePrice, retailPrice; 
 	
 
 

@@ -3,8 +3,10 @@
 
 using namespace std;
 
-product Eggs = 
-product Milk = 
+int answer;
+
+product Eggs = eggs("Egglands Best", 10, 30, "$2.20", "$0.65" );
+product Milk = milk("Dairyland Milk", 24, 40, );
 product Bread = 
 product Soda = 
 product Meat = 
@@ -16,7 +18,90 @@ int main()
 {
 
 	cout << "Welcome to the Sweep Mart's stock program\n";
-	cout << "Select the item you would like to display information about:" << endl;
+	cout << "Select the product you would like to display information about:" << endl;
+	cout << "1.) Eggs\n";
+	cout << "2.) Milk\n";
+	cout << "3.) Bread\n";
+	cout << "4.) Soda\n";
+	cout << "5.) Meat\n";
+	cout << "6.) Cereal\n";
+	cin >> answer;
+
+	if (answer == 1) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	
+	}
+
+	else if (answer == 2) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	}
+	else if (answer == 3) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	}
+	else if (answer == 4) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	}
+	else if (answer == 5) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	}
+	else if (answer == 6) {
+		cout << "What information would you like to display?\n";
+		cout << "1.) Manufacturer\n";
+		cout << "2.) Current Stock\n";
+		cout << "3.) Recommended Stock\n";
+		cout << "4.) Retail Price\n";
+		cout << "5.) Wholesale Price\n";
+	}
+	else {
+		cout << "You chose an invalid product, please try again\n";
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
