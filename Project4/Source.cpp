@@ -7,8 +7,8 @@ int answer;
 
 product Eggs = eggs("Egglands Best", 10, 30, "$2.20", "$0.65" );
 product Milk = milk("Dairyland Milk", 24, 40, "$3.85", "$1.13" );
-product Bread = bread("Daisy's Best", 24, 40, "$3.85", "$1.13");
-product Soda = soda("Flurry Pop", 24, 40, "$3.85", "$1.13");
+product Bread = bread("Daisy's Best", 24, 40, "$3.20", "$0.95");
+product Soda = soda("Flurry Pop, 12-pack", 24, 40, "$5.99", "$3.20");
 product Meat = meat("BBQ Ribs", 24, 40, "$18.99", "$10.15");
 product Cereal = cereal("Pop 'n Crunch", 24, 40, "$4.30", "$1.55");
 
