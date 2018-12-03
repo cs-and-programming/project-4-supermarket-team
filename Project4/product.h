@@ -7,16 +7,14 @@ class product
 {
 private:
 	int count;
-	float wholesalePrice, retailPrice; 
+	float wholesalePrice; 
 	
 
 
 
 public:
-	float price;
-	string name; 
-	string manufacturer;
-	string description; 
+	float retailPrice;
+	string name;  
 
 	product(); 
 	float profit(); 

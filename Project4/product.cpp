@@ -8,9 +8,21 @@
 
 using namespace std; 
 
+product::product() {
 
-product::product()
+}
+
+
+
+product::product(string n, int e, int t, float w, float r, )
 {
+	name = n;
+	currinvent = e
+	needinvent = t
+	wholesale = w
+	retail = r
+
+
 }
 
 float product::profit()
@@ -18,16 +30,6 @@ float product::profit()
 	return 0.0f;
 }
 
-product::product(string n, float p, string m, float w, string d, int c)
-{
-	name = n; 
-	price = p; 
-	manufacturer = m; 
-	wholesalePrice = w; 
-	description = d; 
-	count = c; 
-
-}
 
 void product::updateCount()
 {
