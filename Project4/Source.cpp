@@ -34,6 +34,30 @@ int main()
 		cout << "3.) Recommended Stock\n";
 		cout << "4.) Retail Price\n";
 		cout << "5.) Wholesale Price\n";
+		cin >> answerAgain;
+
+		if (answerAgain == 1) {
+			showManufacturer();
+		
+		}
+
+		else if (answerAgain == 2) {
+			displaycurrStock();
+		
+		}
+
+		else if (answerAgain == 3) {
+			displayRecstock();
+		}
+		else if (answerAgain == 4) {
+			displayRetprice();
+		}
+		else if (answerAgain == 5) {
+			displayWholeprice();
+		}
+		else {
+			cout << "Please try again\n";
+		}
 	
 	}
 
