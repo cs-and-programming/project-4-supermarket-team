@@ -11,14 +11,9 @@
 #include "product.h"
 #include <iostream>
 
-
 using namespace std;
 
 int answer, answerAgain;
-
-
-
-
 
 int main()
 {
@@ -74,7 +69,7 @@ int main()
 				cout << "$" << Eggs.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 
 		}
@@ -100,7 +95,7 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				ccout << "The recommended inventory is " << Milk.needinvent;
+				cout << "The recommended inventory is " << Milk.needinvent;
 				cout << ". Add " << (Milk.needinvent - Milk.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
@@ -111,7 +106,7 @@ int main()
 				cout << "$" << Milk.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 		}
 
@@ -147,7 +142,7 @@ int main()
 				cout << "$" << Bread.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 		}
 
@@ -183,7 +178,7 @@ int main()
 				cout << "$" << Soda.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 		}
 
@@ -219,7 +214,7 @@ int main()
 				cout << "$" << Meat.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 		}
 
@@ -255,7 +250,7 @@ int main()
 				cout << "$" << Cereal.wholesale << endl;
 			}
 			else {
-				cout << "Please try again\n";
+				cout << "Invalid selection, please try again\n";
 			}
 		}
 
@@ -264,7 +259,7 @@ int main()
 
 		}
 
-		cout << "Would you like to run the program again?" << endl;
+		cout << "Would you like to run the program again? (y or n)" << endl;
 		cin >> response;
 
 		if (response == 'n' || response == 'N')
