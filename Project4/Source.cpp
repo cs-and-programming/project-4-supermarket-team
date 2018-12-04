@@ -1,3 +1,13 @@
+/**************************************************************************************
+* Name: David Peacock
+* Email: peacoc24@students.rowan.edu
+* Project Members: Yael Garcia, Asia Cunningham, Chris Mine, Nathan Pyles, John Mollo,
+* Clifford Mendoza
+***************************************************************************************
+* Purpose:
+*  This is Project 4, Supermarket Team
+***********************************************/
+
 #include "product.h"
 #include <iostream>
 
@@ -15,12 +25,12 @@ int main()
 	bool runs = true;
 	while (runs) {
 		char response = ' ';
-		product Eggs("Egglands Best", 10, 30, 2.20, 0.65);
-		product Milk("Dairyland Milk", 24, 40, 3.85, 1.13);
-		product Bread("Daisy's Best", 24, 40, 3.20, 0.95);
+		product Eggs("Egglands Best", 106, 200, 2.20, 0.65);
+		product Milk("Dairyland Milk", 86, 100, 3.85, 1.13);
+		product Bread("Daisy's Best", 56, 90, 3.20, 0.95);
 		product Soda("Flurry Pop, 12-pack", 24, 40, 5.99, 3.20);
-		product Meat("BBQ Ribs", 24, 40, 18.99, 10.15);
-		product Cereal("Pop 'n Crunch", 24, 40, 4.30, 1.55);
+		product Meat("BBQ Ribs", 34, 70, 18.99, 10.15);
+		product Cereal("Pop 'n Crunch", 21, 30, 4.30, 1.55);
 
 		cout << "Welcome to the Sweep Mart's stock program\n";
 		cout << "Select the product you would like to display information about:" << endl;
@@ -53,7 +63,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Eggs.needinvent << endl;
+				cout << "The recommended inventory is " << Eggs.needinvent;
+				cout << ". Add " << (Eggs.needinvent - Eggs.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -89,7 +100,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Milk.needinvent << endl;
+				ccout << "The recommended inventory is " << Milk.needinvent;
+				cout << ". Add " << (Milk.needinvent - Milk.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -124,7 +136,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Bread.needinvent << endl;
+				cout << "The recommended inventory is " << Bread.needinvent;
+				cout << ". Add " << (Bread.needinvent - Bread.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -159,7 +172,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Soda.needinvent << endl;
+				cout << "The recommended inventory is " << Soda.needinvent;
+				cout << ". Add " << (Soda.needinvent - Soda.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -194,7 +208,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Meat.needinvent << endl;
+				cout << "The recommended inventory is " << Meat.needinvent;
+				cout << ". Add " << (Meat.needinvent - Meat.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -229,7 +244,8 @@ int main()
 
 			else if (answerAgain == 3) {
 
-				cout << "The needed inventory is " << Cereal.needinvent << endl;
+				cout << "The recommended inventory is " << Cereal.needinvent;
+				cout << ". Add " << (Cereal.needinvent - Cereal.currinvent) << " to current stock to make sure.\n";
 			}
 			else if (answerAgain == 4) {
 
@@ -248,7 +264,7 @@ int main()
 
 		}
 
-		cout << "Do you want to run another program?" << endl;
+		cout << "Would you like to run the program again?" << endl;
 		cin >> response;
 
 		if (response == 'n' || response == 'N')
