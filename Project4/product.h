@@ -1,5 +1,5 @@
 #pragma once
-#include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -7,19 +7,26 @@ class product
 {
 private:
 	int count;
-	float wholesalePrice; 
+	
 	
 
 
 
 public:
-	float retailPrice;
-	string name;  
+	string name; 
+	int currinvent;
+	int needinvent;
+	float retail;
+	float wholesale;
+
 
 	product(); 
-	float profit(); 
-	product(string n, float p, string m, float w, string d, int c);
+	product(string n, int e, int t, float w, float r);
+	float profit();
+
 	void updateCount(); 
+	float getWholesale();
+	void setWholesale(float value);
 	~product();
 };
 

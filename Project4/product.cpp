@@ -1,10 +1,10 @@
 #include "product.h"
 #include <iostream>
-#include <string>
 
 #ifndef	PRODUCT_H
 #define 	PRODUCT_H
 #endif
+
 
 using namespace std; 
 
@@ -14,16 +14,17 @@ product::product() {
 
 
 
-product::product(string n, int e, int t, float w, float r, )
+product::product(string n, int e, int t, float w, float r)
 {
 	name = n;
-	currinvent = e
-	needinvent = t
-	wholesale = w
-	retail = r
+	currinvent = e; 
+	needinvent = t; 
+	wholesale = w; 
+	retail = r; 
 
 
 }
+
 
 float product::profit()
 {
@@ -44,7 +45,15 @@ void product::updateCount()
 }
 
 
+float product::getWholesale()
+{
+	return wholesale; 
+}
 
+void product::setWholesale(float value)
+{
+	wholesale = value;
+}
 
 product::~product()
 {

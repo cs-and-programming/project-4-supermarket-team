@@ -18,17 +18,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="counter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="counter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
