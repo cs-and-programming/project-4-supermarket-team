@@ -2,7 +2,7 @@
 * Name: David Peacock
 * Email: peacoc24@students.rowan.edu
 * Project Members: Yael Garcia, Asia Cunningham, Chris Mine, Nathan Pyles, John Mollo,
-* Clifford Mendoza
+* Clifford Mendoza, Abigail Heinz
 ***************************************************************************************
 * Purpose:
 *  This is Project 4, Supermarket Team
